@@ -25,7 +25,7 @@ public class RemoveTheOddBalls {
     }
 
     // This function uses of the filter map stream to filter out
-    // odd number length strings contain in an Arrayl
+    // odd number length strings contain in an Arraylist
     public static Object[] solution(ArrayList<String> words) {
         return words.stream().filter(e -> e.length() % 2 == 0).toArray();
     }
