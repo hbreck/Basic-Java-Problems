@@ -2,7 +2,7 @@ package problems;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        // Create string to used in function
+        // Create string to be used in function
         String greeting = "Hello";
 
         // Print solution function
