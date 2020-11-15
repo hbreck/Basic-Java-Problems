@@ -23,7 +23,9 @@ public class QueryTheFile {
     // out strings that contain the number 2.
     // This is done with the filter stream method.
     public static ArrayList<String> solution() throws IOException {
-        // The text file used in this function is stored in the The string value used fro the file name is relative.
+        // The text file used in this function is stored in the folder /src/problems/textfiles/.
+        // The string value used fro the file name is relative. Make sure to include the file
+        // path the text file is stored in.
         String fileName = "C:\\Users\\hbreck\\Documents\\Basic-Java-Problems\\src\\problems\\textfiles\\filter_problem.text";
         Stream<String> stream = Files.lines(Paths.get(fileName));
 
