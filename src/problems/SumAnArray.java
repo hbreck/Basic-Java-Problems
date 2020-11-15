@@ -15,7 +15,8 @@ public class SumAnArray {
 
     }
 
-    //
+    // This function makes use of the reduce stream
+    // function to sum all the elements in an integer array
     public static int solution(int[] nums) {
         return Arrays.stream(nums).reduce(0, (element, sum) -> element + sum);
     }
