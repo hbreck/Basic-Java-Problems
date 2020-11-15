@@ -15,6 +15,7 @@ public class SumAnArray {
 
     }
 
+    //
     public static int solution(int[] nums) {
         return Arrays.stream(nums).reduce(0, (element, sum) -> element + sum);
     }
