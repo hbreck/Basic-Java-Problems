@@ -8,7 +8,7 @@ public class ReverseAStringReduce {
         // Assign string type variable to the problem string
         String problem = "Herman";
 
-        // Assign string typ variable to solution string
+        // Assign string type variable to solution string
         String result = solution(problem);
 
         //Print solution result
